@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background: rgb(153, 59, 34);
+  background: linear-gradient(
+    333deg,
+    rgba(153, 59, 34, 1) 24%,
+    rgba(232, 180, 5, 1) 46%
+  ) !important;
+}
