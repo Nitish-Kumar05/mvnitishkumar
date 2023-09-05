@@ -22,7 +22,7 @@ This is my portfolio website that showcases my work and skills. It's built with 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me:
+If you have any questions, suggestions or collab feel free to contact me:
 
 - **Email:** mvnitishkumar@gmail.com
 - **Portfolio:** [Live portfolio-site](https://mvnitishkumar-portfolio.vercel.app/)
