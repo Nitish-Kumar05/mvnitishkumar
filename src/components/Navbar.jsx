@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 import Logo from '../assets/logo.png'
+import resume from '../assets/mvnitishkumar.pdf'
 
 const Navbar = () => {
 
@@ -51,6 +52,13 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
+                    <li>
+                        <a href={resume} download='mvnitishkumar.pdf'>
+                            <button>
+                                Resume
+                            </button>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -86,6 +94,13 @@ const Navbar = () => {
                         Contact
                     </Link>
                 </li>
+                <li className='py-6 text-4xl'>
+                    <a href={resume} download='mvnitishkumar.pdf'>
+                        <button>
+                            Resume
+                        </button>
+                    </a>
+                </li>
             </ul>
 
             {/* SOCIAL MEDIA ICONS FOR SIDE BAR */}
@@ -102,7 +117,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full' href="https://drive.google.com/file/d/14KTA0CJTQAeEZ8C8RMUXMahiIQfu45EW/view?usp=drive_link" target='_blank'>
+                        <a className='flex justify-between items-center w-full' href={resume} download='mvnitishkumar.pdf'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
