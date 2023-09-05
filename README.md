@@ -24,6 +24,6 @@ This is my portfolio website that showcases my work and skills. It's built with 
 
 If you have any questions or suggestions, feel free to contact me:
 
-- **Email:** mvnitishkumae@gmail.com
+- **Email:** mvnitishkumar@gmail.com
 - **Portfolio:** [Live portfolio-site](https://mvnitishkumar-portfolio.vercel.app/)
 - **Twitter:** [@mvnitishkumar](https://twitter.com/mvnitishkumar)
