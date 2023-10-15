@@ -21,15 +21,18 @@ const Contact = () => {
                 </div>
 
                 {/* INPUT FEILDS */}
-                <input className='p-2' type="text" placeholder='Name' name="name" />
-                <input className='my-4 p-2' type="email" placeholder='Email' name="email" />
-                <textarea className='p-2' name="message" rows="10" placeholder='Message'></textarea>
+                <input className='p-2' type="text" placeholder='Name' name="name" required />
+                <input className='my-4 p-2' type="email" placeholder='Email' name="email" required />
+                <textarea className='p-2' name="message" rows="10" placeholder='Message' required></textarea>
                 <button className='text-white border-2 hover:bg-[#e09145] hover:border-[#e09145] px-4 py-3 my-8 mx-auto flex items-center'>Submit</button>
 
                 {/* FOR MOBILE DEVICES */}
                 <div className='flex justify-center space-x-2 pb-1 sm:hidden'>
                     <a className='text-[#fcd9b8]' href="https://github.com/Nitish-Kumar05" target='_blank'>
                         <FaGithub size={30} />
+                    </a>
+                    <a className='text-[#fcd9b8]' href="https://www.linkedin.com/in/nitish-kumar-mv/" target='_blank'>
+                        <FaLinkedin size={30} />
                     </a>
                 </div>
             </form>
